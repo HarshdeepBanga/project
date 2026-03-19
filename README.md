@@ -21,10 +21,10 @@ project/
 │   │── task9
 │
 │── outputs/
-│   │── output1.png
-│   │── output2.png
-│   │── output3.png
-│   │── output4.png
+│   │── task7.png
+│   │── task9 chat.png
+│   │── task9 output1.png
+│   │── task9 summarize.png
 │
 │── sheet1.csv
 │── sheet2.csv
@@ -44,7 +44,7 @@ git clone <your-repo-link>
 cd project
 ```
 
-2. Create virtual environment (optional but recommended):
+2. Create virtual environment (optional):
 
 ```bash
 python -m venv venv
@@ -84,25 +84,89 @@ python task1.py
 
 ---
 
-## 🧠 Description of Each Task
+🧠 Description of Each Task
 
-### 🔹 NLP
+🔹 NLP
 
 Basic Natural Language Processing tasks such as:
 
-* Text preprocessing
-* Tokenization
-* Feature extraction
+Text preprocessing
 
-### 🔹 DL (Deep Learning)
+Tokenization
+
+Feature extraction
+
+🔹 DL (Deep Learning)
 
 Implementation of deep learning models for:
 
-* Classification
-* Prediction tasks using datasets (`sheet1.csv`, `sheet2.csv`)
+Classification
 
-### 🔹 Transformers
+Prediction tasks using datasets (sheet1.csv, sheet2.csv)
+
+🔹 Transformers
 
 Usage of transformer-based models for advanced NLP tasks.
 
-### 🔹 LangChai
+🔹 LangChain
+
+Building conversational pipelines and LLM-based workflows.
+
+🔹 Hugging Face
+
+Using pretrained models and pipelines from Hugging Face.
+
+🔹 Ollama
+
+Running and experimenting with local LLMs.
+
+🔹 API
+
+Creating APIs to serve models using FastAPI or Flask.
+
+🖼️ Outputs
+
+The outputs/ folder contains result images generated from different tasks.
+
+🧪 Example Inputs and Outputs
+Example 1: NLP Task
+
+Input:
+
+"This is a sample sentence."
+
+Output:
+
+["This", "is", "a", "sample", "sentence"]
+Example 2: Transformer Task
+
+Input:
+
+"Translate English to French: Hello"
+
+Output:
+
+"Bonjour"
+Example 3: API Task
+
+Request:
+
+POST /predict
+{
+  "text": "I love AI"
+}
+
+Response:
+
+{
+  "sentiment": "positive"
+}
+📌 Notes
+
+Tasks are organized inside the tasks/ folder.
+
+Output images are stored in the outputs/ folder.
+
+CSV files (sheet1.csv, sheet2.csv) are used for model training/testing.
+
+Each task demonstrates a different concept in AI/ML.
