@@ -12,11 +12,14 @@ The goal of this project is to explore and implement different AI concepts and t
 
 ```
 project/
-│── nlp/
-│── dl/
-│── transformers/
-│── langchain/
-│── hf/
+│── task1/
+│── task2/
+│── task3/
+│── task4/
+│── task5/
+│── task6/
+│── task7/
+│── task9/
 │── requirements.txt
 │── README.md
 │── .gitignore
