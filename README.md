@@ -50,11 +50,9 @@ project/
    pip install -r requirements.txt
    ```
 
-4. Run the main file:
+4. Run the files:
 
-   ```bash
-   python main.py
-   ```
+   
 
 ---
 
